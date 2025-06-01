@@ -246,7 +246,7 @@ button, a, input {
   border-top-left-radius: 0.5rem;
 }
 
-#apps-container > a:nth-child(2) {  
+#apps-container > a:nth-child(4) {  
   color: rgb(255, 0, 0);
   border-top-right-radius: 0.5rem;
 }
@@ -255,7 +255,7 @@ button, a, input {
   color: rgb(28, 204, 91);
 }
 
-#apps-container > a:nth-child(4) {  
+#apps-container > a:nth-child(2) {  
   color: rgb(28, 147, 228);
 }
 
@@ -1094,7 +1094,19 @@ body {
   color: rgba(255, 255, 255, 0.25);
 }
 
+.social-button--anime .home-icon {
+  transition: transform 0.2s;
+  vertical-align: middle;
+}
 
+.social-button--anime:hover .home-icon {
+  transform: scale(1.2);
+}
+.social-button--anime .home-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ff4081;
+}
 
 
 
